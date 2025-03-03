@@ -7,7 +7,5 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  secretRef:
-    name: repository-pat
   timeout: 1m0s
-  url: https://github.com/bartalos86/ambulance-gitops
+  url: https://github.com/bartalos86/WAC-ambulance-gitops
