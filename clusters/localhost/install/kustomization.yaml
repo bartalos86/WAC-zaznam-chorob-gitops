@@ -9,6 +9,14 @@ labels:
 
 resources:
 - ../../../apps/bm-ambulance-ufe
+- ../../../apps/bm-ambulance-webapi
+# - ../../../apps/polyfea-md-shell
+
+patches:
+# - path: patches/material-design.microfrontend.yaml
+# - path: patches/polyfea-md-shell.microfrontend.yaml
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/bartalos86/WAC-ambulance-webapi//deployments/kustomize/components/mongodb
