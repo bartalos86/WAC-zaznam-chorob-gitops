@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: cv1-zaznam-chorob-container # meno kontaineru - v pod-e ich môže byť viac
-        image: bartalos86/zaznam-chorob-ufe
+        image: bartalos86/zaznam-chorob-ufe:latest
         imagePullPolicy: Always
 
         ports:
