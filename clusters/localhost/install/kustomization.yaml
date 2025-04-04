@@ -15,7 +15,7 @@ resources:
 patches:
 # - path: patches/material-design.microfrontend.yaml
 # - path: patches/polyfea-md-shell.microfrontend.yaml
-- path: patches/ambulance-webapi.service.yaml
+# - path: patches/zaznam-chorob-webapi.service.yaml
 - path: patches/polyfea-fea.microfrontendclass.yaml
 
 components:
