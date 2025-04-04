@@ -10,4 +10,4 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: bm-gitops-repo
+    name: cv1-zaznam-chorob-gitops-repo
