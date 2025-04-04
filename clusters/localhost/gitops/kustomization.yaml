@@ -14,6 +14,6 @@ resources:
 - git-repository.yaml
 - zaznam-chorob-ufe.image-repository.yaml
 - zaznam-chorob-ufe.image-policy.yaml
-- zaznam-chorob-webapi.image-repository.yaml
-- zaznam-chorob-webapi.image-policy.yaml
+# - zaznam-chorob-webapi.image-repository.yaml
+# - zaznam-chorob-webapi.image-policy.yaml
 - image-update-automation.yaml
