@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: bm-ambulance-webapi
+  name: cv1-zaznam-chorob-webapi
 spec:
   type: NodePort
   ports:

@@ -6,13 +6,13 @@ namespace: wac-hospital
 labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
-    app.kubernetes.io/name: bm-ambulance-wl
+    app.kubernetes.io/name: cv1-zaznam-chorob
   includeSelectors: true
   includeTemplates: true
 
 resources:
-- ../../../apps/bm-ambulance-ufe
-- ../../../apps/bm-ambulance-webapi
+- ../../../apps/cv1-zaznam-chorob-ufe
+# - ../../../apps/cv1-zaznam-chorob-webapi
 
 
 components:

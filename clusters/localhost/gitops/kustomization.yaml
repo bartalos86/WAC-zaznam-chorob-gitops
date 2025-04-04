@@ -12,8 +12,8 @@ resources:
 - cd.kustomization.yaml
 - install.kustomization.yaml
 - git-repository.yaml
-- ambulance-ufe.image-repository.yaml
-- ambulance-ufe.image-policy.yaml
-- ambulance-webapi.image-repository.yaml
-- ambulance-webapi.image-policy.yaml
+- zaznam-chorob-ufe.image-repository.yaml
+- zaznam-chorob-ufe.image-policy.yaml
+- zaznam-chorob-webapi.image-repository.yaml
+- zaznam-chorob-webapi.image-policy.yaml
 - image-update-automation.yaml

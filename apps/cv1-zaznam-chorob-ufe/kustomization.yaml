@@ -10,4 +10,4 @@ resources:
 
 labels:
 - pairs:
-    app.kubernetes.io/component: bm-ambulance-ufe
+    app.kubernetes.io/component: cv1-zaznam-chorob-ufe

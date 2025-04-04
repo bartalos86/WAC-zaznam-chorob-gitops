@@ -1,18 +1,18 @@
 apiVersion: polyfea.github.io/v1alpha1
 kind: WebComponent
 metadata:
-  name: bm-ambulance-ufe-content
+  name: cv1-zaznam-chorob-ufe-content
 spec:
-  microFrontend: bm-ambulance-ufe
-  element: bm-ambulance-wl-app
+  microFrontend: cv1-zaznam-chorob-ufe
+  element: cv1-zaznam-chorob-app
   attributes:
     - name: api-base
       value: http://localhost:30081/api
     - name: ambulance-id
       value: bobulova
     - name: base-path
-      value: /bm-ambulance-wl/
+      value: /cv1-zaznam-chorob/
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?bm-ambulance-wl(/.*)?$"
+      - path: "^(\\.?/)?cv1-zaznam-chorob(/.*)?$"

@@ -8,8 +8,8 @@ labels:
     app.kubernetes.io/part-of: wac-hospital
 
 resources:
-- ../../../apps/bm-ambulance-ufe
-- ../../../apps/bm-ambulance-webapi
+- ../../../apps/cv1-zaznam-chorob-ufe
+# - ../../../apps/cv1-zaznam-chorob-webapi
 # - ../../../apps/polyfea-md-shell
 
 patches:
@@ -20,4 +20,4 @@ patches:
 
 components:
 - ../../../components/version-developers
-- https://github.com/bartalos86/WAC-ambulance-webapi//deployments/kustomize/components/mongodb
+# - https://github.com/bartalos86/WAC-zaznam-chorob-webapi//deployments/kustomize/components/mongodb
