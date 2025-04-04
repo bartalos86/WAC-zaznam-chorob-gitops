@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: bartalos86/zaznam-chorob-ufe
   newName: bartalos86/zaznam-chorob-ufe
-  newTag: latest  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: bartalos86/zaznam-chorob-wl-webapi
   newName: bartalos86/zaznam-chorob-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
   newTag: latest
