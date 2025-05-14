@@ -12,7 +12,7 @@ labels:
 
 resources:
 - ../../../apps/cv1-zaznam-chorob-ufe
-# - ../../../apps/cv1-zaznam-chorob-webapi
+- ../../../apps/cv1-zaznam-chorob-webapi
 
 
 components:
