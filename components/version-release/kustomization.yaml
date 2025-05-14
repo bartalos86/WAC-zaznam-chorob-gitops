@@ -6,4 +6,4 @@ images:
   newTag: latest
 - name: bartalos86/zaznam-chorob-webapi
     newName: bartalos86/zaznam-chorob-webapi
-    newTag: 1.0.0
+    newTag: 1.0.1
