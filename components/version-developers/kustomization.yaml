@@ -2,9 +2,9 @@ apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 
 images:
-- name: bartalos86/zaznam-chorob-wl-webapi
-  newName: bartalos86/zaznam-chorob-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
-  newTag: latest # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+- name: bartalos86/zaznam-chorob-webapi
+  newName: bartalos86/zaznam-chorob-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+  newTag: 1.0.1 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
 - name: bartalos86/zaznam-chorob-ufe
   newName: bartalos86/zaznam-chorob-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
   newTag: latest # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
