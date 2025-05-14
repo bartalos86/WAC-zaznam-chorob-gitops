@@ -1,0 +1,8 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImageRepository
+metadata:
+  name: zaznam-chorob-webapi
+  namespace: wac-hospital
+spec:
+  image: bartalos86/zaznam-chorob-webapi
+  interval: 1m0s
