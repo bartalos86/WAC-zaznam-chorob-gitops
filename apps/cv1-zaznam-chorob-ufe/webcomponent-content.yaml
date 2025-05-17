@@ -7,9 +7,7 @@ spec:
   element: patient-app
   attributes:
     - name: api-base
-      value: http://localhost:30081/api
-    - name: ambulance-id
-      value: bobulova
+      value: /cv1-zaznam-chorob-api
     - name: base-path
       value: /cv1-zaznam-chorob/
   displayRules:
