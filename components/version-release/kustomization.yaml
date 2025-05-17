@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: bartalos86/zaznam-chorob-ufe
   newName: bartalos86/zaznam-chorob-ufe
-  newTag: 1.0.7
+  newTag: 1.0.8
 - name: bartalos86/zaznam-chorob-webapi
   newName: bartalos86/zaznam-chorob-webapi
   newTag: 1.0.7
