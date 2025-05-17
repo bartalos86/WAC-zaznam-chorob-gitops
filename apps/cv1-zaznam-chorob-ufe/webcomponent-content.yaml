@@ -4,7 +4,7 @@ metadata:
   name: cv1-zaznam-chorob-ufe-content
 spec:
   microFrontend: cv1-zaznam-chorob-ufe
-  element: cv1-zaznam-chorob-app
+  element: patient-app
   attributes:
     - name: api-base
       value: http://localhost:30081/api
